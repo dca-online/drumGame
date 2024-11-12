@@ -1,5 +1,3 @@
-//Detecting Button Press
-
 var numberOfButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfButtons; i++) {
@@ -15,8 +13,6 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     });
 
 }
-
-//Detecting Keyboard Press
 
 document.addEventListener("keydown", function(event) {
 
@@ -73,22 +69,4 @@ function makeSound(key) {
     
     }
 
-
-    
-    // function anotherAddEventListener(typeOfEvent, callback) {
-
-    //     var eventThatHappened = {
-    //     eventType: "keydown",
-    //         key: "p",
-    //         durationOfKeypress: 2
-    
-    //     }
-    //     if (eventThatHappened === typeOfEvent) {
-    //     callback(eventThatHappened);
-    //     }
-    // }
-
-    // anotherAddEventListener("keydown", function(event) {
-    //     console.log(event);
-    // }); 
     
